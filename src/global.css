@@ -1,0 +1,32 @@
+:root{
+  --white: #fff;
+  --grey-100:#F2F2F2;
+  --grey-200: #D9D9D9;
+  --grey-300: #808080;
+  --grey-400: #333333;
+  --grey-500: #454545;
+  --grey-600: #1A1A1A;
+  --grey-700:  #0d0d0d;
+  --blue: #4EA8DE;
+  --blue-dark: #1E6F9F;
+  --purple: #8284FA;
+  --taskbg: #262626;
+}
+
+*{
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+body{
+  background: var(--grey-600);
+  color: var(--grey-200);
+  -webkit-font-smoothing: antialised;
+}
+
+body, input, textArea, button{
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+}

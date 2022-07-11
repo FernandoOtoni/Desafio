@@ -1,0 +1,16 @@
+.TMContainer{
+  display: flex;
+  width: 46rem;
+  margin:0 auto;
+  margin-top: 4rem;
+  justify-content: space-between;
+}
+
+.TMContainer div{
+  display: flex;
+  gap: 0.5rem;
+
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: var(--purple);
+}
